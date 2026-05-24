@@ -59,21 +59,32 @@ function App() {
       <div className="pointer-events-none fixed inset-0 bg-grid opacity-45" />
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(185,151,91,0.10),transparent_30%),radial-gradient(circle_at_80%_5%,rgba(141,152,167,0.08),transparent_26%),radial-gradient(circle_at_50%_100%,rgba(124,79,67,0.08),transparent_34%)]" />
 
-      <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
-        <a href="#top" className="group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl border border-bone/10 bg-bone/[0.035] shadow-glow">
-            <span className="h-2.5 w-2.5 rounded-full bg-amber" />
-          </span>
-          <span className="text-sm font-semibold tracking-[0.32em] text-bone/78">CONNOR ADAMS</span>
-        </a>
-        <div className="hidden items-center gap-6 text-sm text-bone/55 md:flex">
-          <a className="transition hover:text-bone" href="#work">Work</a>
-          <a className="transition hover:text-bone" href="#approach">Approach</a>
-          <a className="transition hover:text-bone" href="#contact">Contact</a>
-        </div>
-      </nav>
+      <header className="relative z-20 mx-auto max-w-7xl px-6 pt-6 lg:px-8">
+        <nav className="flex items-center justify-between border-b border-bone/10 pb-5">
+          <a href="#top" className="group flex items-center gap-4">
+            <span className="grid h-11 w-11 place-items-center rounded-xl border border-bone/12 bg-bone/[0.035] text-sm font-semibold tracking-[-0.04em] text-bone/84 transition group-hover:border-amber/28 group-hover:text-amber">
+              CA
+            </span>
+            <span className="flex flex-col leading-none">
+              <span className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-bone/82">Connor Adams</span>
+              <span className="mt-1.5 hidden text-xs text-bone/42 sm:block">Product engineer</span>
+            </span>
+          </a>
 
-      <section id="top" className="relative z-10 mx-auto grid max-w-7xl gap-12 px-6 pb-20 pt-12 lg:grid-cols-[1.04fr_0.96fr] lg:px-8 lg:pb-28 lg:pt-20">
+          <div className="hidden items-center rounded-full border border-bone/10 bg-bone/[0.026] p-1 text-sm text-bone/56 backdrop-blur md:flex">
+            <a className="rounded-full px-4 py-2 transition hover:bg-bone/[0.055] hover:text-bone" href="#work">Work</a>
+            <a className="rounded-full px-4 py-2 transition hover:bg-bone/[0.055] hover:text-bone" href="#approach">Approach</a>
+            <a className="rounded-full px-4 py-2 transition hover:bg-bone/[0.055] hover:text-bone" href="#contact">Contact</a>
+          </div>
+
+          <a href="mailto:hello@connoradams.dev" className="hidden items-center gap-2 rounded-full border border-bone/10 bg-bone/[0.035] px-4 py-2 text-sm font-medium text-bone/72 transition hover:border-amber/28 hover:text-bone lg:inline-flex">
+            Available for interesting work
+            <span className="h-1.5 w-1.5 rounded-full bg-amber" />
+          </a>
+        </nav>
+      </header>
+
+      <section id="top" className="relative z-10 mx-auto grid max-w-7xl gap-12 px-6 pb-20 pt-16 lg:grid-cols-[1.04fr_0.96fr] lg:px-8 lg:pb-28 lg:pt-24">
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="flex flex-col justify-center">
           <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-bone/10 bg-bone/[0.035] px-4 py-2 text-sm text-bone/66 backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-amber" />
