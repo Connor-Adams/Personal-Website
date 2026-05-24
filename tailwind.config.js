@@ -3,16 +3,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#0c1117',
-        bone: '#f3efe6',
-        amber: '#c9a15b',
-        plum: '#2b1f2d',
-        jade: '#7aa68c',
-        rust: '#a76552'
+        ink: '#080b10',
+        bone: '#f4efe4',
+        amber: '#b9975b',
+        plum: '#151019',
+        jade: '#8d98a7',
+        rust: '#7c4f43'
       },
       boxShadow: {
-        glow: '0 0 44px rgba(201,161,91,0.16)',
-        card: '0 24px 80px rgba(0,0,0,0.30)'
+        glow: '0 0 36px rgba(185,151,91,0.12)',
+        card: '0 28px 90px rgba(0,0,0,0.34)'
       }
     }
   },
