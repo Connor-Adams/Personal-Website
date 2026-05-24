@@ -60,9 +60,8 @@ const stack = ['TypeScript', 'React', 'Node', 'SwiftUI', 'PostgreSQL', 'Supabase
 function App() {
   return (
     <main className="min-h-screen overflow-hidden bg-ink text-bone selection:bg-amber/25 selection:text-bone">
-      <div className="pointer-events-none fixed inset-0 bg-grid opacity-55" />
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(209,173,106,0.16),transparent_32%),radial-gradient(circle_at_82%_6%,rgba(168,180,194,0.14),transparent_28%),radial-gradient(circle_at_50%_100%,rgba(155,106,91,0.12),transparent_36%)]" />
-      <div className="pointer-events-none fixed inset-x-0 top-0 h-36 bg-gradient-to-b from-bone/[0.055] to-transparent" />
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(90,34,139,0.26),transparent_32%),radial-gradient(circle_at_82%_6%,rgba(75,30,120,0.22),transparent_28%),radial-gradient(circle_at_50%_100%,rgba(36,16,46,0.28),transparent_36%)]" />
+      <div className="pointer-events-none fixed inset-x-0 top-0 h-36 bg-gradient-to-b from-bone/[0.045] to-transparent" />
 
       <header className="relative z-20 mx-auto max-w-7xl px-6 pt-5 lg:px-8">
         <div className="mb-4 flex items-center justify-between text-[0.68rem] uppercase tracking-[0.28em] text-bone/40">
@@ -72,7 +71,7 @@ function App() {
         <nav className="flex items-center justify-between rounded-[1.7rem] border border-bone/14 bg-bone/[0.075] px-3 py-3 shadow-card backdrop-blur-xl md:px-4">
           <a href="#top" className="group flex items-center gap-4 rounded-2xl px-1 py-1 transition hover:bg-bone/[0.045]">
             <span className="relative grid h-12 w-12 place-items-center overflow-hidden rounded-2xl border border-amber/28 bg-gradient-to-br from-bone/[0.14] to-bone/[0.04] text-sm font-semibold tracking-[-0.04em] text-bone transition group-hover:border-amber/48 group-hover:text-amber">
-              <span className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(209,173,106,0.25),transparent_42%)]" />
+              <span className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(90,34,139,0.32),transparent_42%)]" />
               <span className="relative">CA</span>
             </span>
             <span className="flex flex-col leading-none">
@@ -119,7 +118,7 @@ function App() {
             I work across product, frontend, backend, and infrastructure to turn messy problems into clear, durable systems.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <a href="#work" className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-bone px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:-translate-y-0.5 hover:bg-amber">
+            <a href="#work" className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-bone px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:-translate-y-0.5 hover:bg-amber hover:text-bone">
               View work <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
             <a href="#approach" className="inline-flex items-center justify-center gap-2 rounded-2xl border border-bone/12 bg-bone/[0.06] px-5 py-3 text-sm font-semibold text-bone/90 backdrop-blur transition hover:border-bone/20 hover:bg-bone/[0.09]">
@@ -244,7 +243,7 @@ function App() {
             I’m interested in ambitious product work, internal tools, automation, and software that helps small teams punch above their weight.
           </p>
           <div className="relative mt-8 flex flex-wrap gap-3">
-            <a className="inline-flex items-center gap-2 rounded-2xl bg-bone px-5 py-3 text-sm font-semibold text-ink transition hover:bg-amber" href="mailto:hello@connoradams.dev"><Mail className="h-4 w-4" /> Email</a>
+            <a className="inline-flex items-center gap-2 rounded-2xl bg-bone px-5 py-3 text-sm font-semibold text-ink transition hover:bg-amber hover:text-bone" href="mailto:hello@connoradams.dev"><Mail className="h-4 w-4" /> Email</a>
             <a className="inline-flex items-center gap-2 rounded-2xl border border-bone/12 bg-bone/[0.06] px-5 py-3 text-sm font-semibold text-bone/88" href="https://github.com/Connor-Adams" target="_blank" rel="noreferrer"><Github className="h-4 w-4" /> GitHub</a>
             <a className="inline-flex items-center gap-2 rounded-2xl border border-bone/12 bg-bone/[0.06] px-5 py-3 text-sm font-semibold text-bone/88" href="https://www.linkedin.com/in/connor-adams" target="_blank" rel="noreferrer"><Linkedin className="h-4 w-4" /> LinkedIn</a>
           </div>
