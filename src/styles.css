@@ -16,3 +16,35 @@ body { margin: 0; min-width: 320px; background: #080b10; }
   background-image: linear-gradient(rgba(244,239,228,0.026) 1px, transparent 1px), linear-gradient(90deg, rgba(244,239,228,0.026) 1px, transparent 1px);
   background-size: 56px 56px;
 }
+
+.hero-accent {
+  color: #b9975b;
+  text-shadow: 0 0 34px rgba(185, 151, 91, 0.14);
+}
+
+.section-kicker {
+  color: rgba(185, 151, 91, 0.78);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 22% 0%, rgba(185,151,91,0.10), transparent 34%);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
