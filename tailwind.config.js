@@ -3,10 +3,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#141018',
+        ink: '#381356',
         bone: '#f7f3ee',
         amber: '#5A228B',
-        plum: '#381356',
+        plum: '#24102e',
         jade: '#4B1E78',
         rust: '#6A2CA0'
       },
